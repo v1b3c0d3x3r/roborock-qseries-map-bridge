@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Roborock Q10 Map Bridge",
+        "description": "Create local bridge entities for Q10 map and trace data. Live polling is added after parser/calibration validation.",
+        "data": {
+          "robots": "Vacuum entity IDs",
+          "poll_interval": "Poll interval seconds"
+        }
+      }
+    },
+    "error": {
+      "no_robots": "Enter at least one vacuum entity ID."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "bridge_state": {
+        "name": "Bridge state"
+      },
+      "floorplan_x": {
+        "name": "Floorplan X"
+      },
+      "floorplan_y": {
+        "name": "Floorplan Y"
+      },
+      "trace_point_count": {
+        "name": "Trace point count"
+      }
+    }
+  }
+}
