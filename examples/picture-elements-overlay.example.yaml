@@ -1,0 +1,22 @@
+type: picture-elements
+image: /local/floorplan.png
+elements:
+  - type: image
+    entity: camera.vacuum_example_q10_downstairs_trace_overlay
+    camera_image: camera.vacuum_example_q10_downstairs_trace_overlay
+    camera_view: live
+    style:
+      left: 50%
+      top: 50%
+      width: 100%
+      height: 100%
+      z-index: 5
+      pointer-events: none
+
+  - type: state-icon
+    entity: vacuum.example_q10_downstairs
+    style:
+      left: 20%
+      top: 70%
+      z-index: 10
+
