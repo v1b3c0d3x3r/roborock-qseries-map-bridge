@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.venv-*/
+state/
+outputs/
+*.zip
+*.log
+*.token
+*.secret
+*.raw.json
+
