@@ -1,0 +1,11 @@
+{
+  "domain": "roborock_q10_map",
+  "name": "Roborock Q10 Map Bridge",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": ["roborock"],
+  "documentation": "https://github.com/local/roborock_q10_map",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}
