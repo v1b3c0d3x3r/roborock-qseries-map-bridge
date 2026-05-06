@@ -1,0 +1,57 @@
+{
+  "robots": {
+    "vacuum.example_q10_downstairs": {
+      "map_id": null,
+      "trace_bounds": {
+        "min_x": -2000,
+        "max_x": 2000,
+        "min_y": -2000,
+        "max_y": 2000
+      },
+      "floorplan_box_pct": {
+        "center_x": 25.0,
+        "center_y": 50.0,
+        "width": 40.0,
+        "height": 70.0,
+        "rotate": 0,
+        "source_width": 1000,
+        "source_height": 1000
+      },
+      "axis": {
+        "flip_x": false,
+        "flip_y": true
+      },
+      "marker": {
+        "theme": "white",
+        "scale": 1.25
+      }
+    },
+    "vacuum.example_q10_upstairs": {
+      "map_id": null,
+      "trace_bounds": {
+        "min_x": -2000,
+        "max_x": 2000,
+        "min_y": -2000,
+        "max_y": 2000
+      },
+      "floorplan_box_pct": {
+        "center_x": 75.0,
+        "center_y": 50.0,
+        "width": 40.0,
+        "height": 70.0,
+        "rotate": 0,
+        "source_width": 1000,
+        "source_height": 1000
+      },
+      "axis": {
+        "flip_x": false,
+        "flip_y": true
+      },
+      "marker": {
+        "theme": "black",
+        "scale": 1.25
+      }
+    }
+  }
+}
+
