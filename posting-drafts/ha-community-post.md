@@ -30,10 +30,9 @@ What is working:
 - fade-out of the final path after docking.
 
 Repo:
-<PUBLIC_REPO_URL>
+https://github.com/v1b3c0d3x3r/roborock-qseries-map-bridge
 
 This is not a polished HACS integration. It is a technical package for developers and maintainers who want to review the packet format and potentially upstream proper Q-series support into python-roborock and Home Assistant.
 
 The repo intentionally excludes credentials, tokens, map IDs, device identifiers, private captures, and household calibration.
 ```
-
