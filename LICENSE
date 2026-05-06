@@ -1,0 +1,11 @@
+GPL-3.0-or-later
+
+This repository is intended for interoperability work around Roborock Q-series
+map support in Home Assistant and python-roborock.
+
+The code and documentation in this repository are offered under the GNU General
+Public License version 3 or later.
+
+Full license text:
+https://www.gnu.org/licenses/gpl-3.0.txt
+
