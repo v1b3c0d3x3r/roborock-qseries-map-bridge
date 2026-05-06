@@ -22,7 +22,7 @@ It currently decodes:
 The working Home Assistant proof-of-concept renders live traces as transparent camera overlays on a floorplan. The packet notes may be useful for adding Q-series support to the existing map rendering stack.
 
 Repo:
-<PUBLIC_REPO_URL>
+https://github.com/v1b3c0d3x3r/roborock-qseries-map-bridge
 
 Open areas where map-renderer expertise would help:
 - naming the binary mask layer.
@@ -32,4 +32,3 @@ Open areas where map-renderer expertise would help:
 
 No credentials, private captures, map IDs, or household calibration are included.
 ```
-
