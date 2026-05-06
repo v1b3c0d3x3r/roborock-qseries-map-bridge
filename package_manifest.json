@@ -1,0 +1,16 @@
+{
+  "name": "roborock-qseries-map-bridge-package",
+  "purpose": "Shareable technical package for a Home Assistant Roborock Q-series/B01 Q10 map and live trace bridge.",
+  "sanitized": true,
+  "contains_private_captures": false,
+  "contains_credentials": false,
+  "primary_component": "code/custom_components/roborock_q10_map",
+  "offline_parser": "code/offline_parser/roborock_q10_map",
+  "docs": [
+    "README.md",
+    "docs/STEP_BY_STEP.md",
+    "docs/TECHNICAL_REPORT.md",
+    "docs/PACKET_FORMAT_NOTES.md",
+    "docs/FEATURE_ROADMAP.md"
+  ]
+}
